@@ -12,7 +12,7 @@ const Count: FC<CountProps> = ({}) => {
 
   return (
     <div className='flex flex-col'>
-      <h2>Count: {count}</h2>
+      <h2 className='text-center mb-6'>Count: {count}</h2>
 
       <div className='flex flex-col gap-3 items-center'>
         <div className='flex gap-6'>

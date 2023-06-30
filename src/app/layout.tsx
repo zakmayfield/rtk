@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <div className='max-w-lg mx-auto border'>
+        <div className='max-w-2xl mx-auto border'>
           <Provider>{children}</Provider>
         </div>
       </body>
